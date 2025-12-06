@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'cn.power'
+version = '211118'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(include: ["*.jar"], dir: "lib")
+}
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = "utf-8"
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = 'UTF-8'
+}
