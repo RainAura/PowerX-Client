@@ -69,6 +69,7 @@ public class IRCManager {
 
 	@native0
 	public void init() {
+/*
 		try {
 			cc = new WebSocketClient(new URI(IRC_HostName + PacketUtil.SendLoginClientPacket(new C00PacketConnect(user = new User(Client.Client_Name,Client.Client_Rank,Client.ClientUser,Minecraft.getMinecraft().getSession().getProfile().getName()))))) {
 				@Override
@@ -192,6 +193,7 @@ public class IRCManager {
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		}
+*/
 
 	}
 

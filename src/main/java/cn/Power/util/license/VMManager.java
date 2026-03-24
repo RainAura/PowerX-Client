@@ -34,7 +34,7 @@ public class VMManager {
 			} else {
 
 				Object[] arrobject = (Object[]) m.invoke(p);
-				List list = arrobject != null && arrobject.length != 0 ? Arrays.asList((Object[]) arrobject)
+				List list = arrobject != null && arrobject.length != 0 ? Arrays.asList(arrobject)
 						: Collections.emptyList();
 				return Collections.unmodifiableList(list);
 			}

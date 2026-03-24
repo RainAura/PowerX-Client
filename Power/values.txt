@@ -19,7 +19,7 @@ Global_TargetHudOffsetY2:d:0.0
 ClickGui_MaxHeight:d:300.0
 ClickGui_Round:d:2.69
 ClickGui_BackGround:b:true
-Reach_Reach:d:3.5
+Reach_Reach:d:3.6
 Reach_BlockReach:d:5.0
 Hitbox_Size:d:0.5
 Hitbox_Player:b:true
@@ -41,8 +41,8 @@ KillAura_IgnoreMwAnimals:b:true
 KillAura_Mode:s:Mode:0
 KillAura_Mode:s:Priority:0
 KillAura_Mode:s:targetHUD:0
-KillAura_Reach:d:4.2
-KillAura_BlockReach:d:4.2
+KillAura_Reach:d:3.7
+KillAura_BlockReach:d:3.6
 KillAura_MaxCPS:d:10.0
 KillAura_MinCPS:d:10.0
 KillAura_TurnSpeed:d:120.0

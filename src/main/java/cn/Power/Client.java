@@ -39,7 +39,7 @@ public class Client {
 	public final static String CLIENT_File = "Power";
 	public final static String CLIENT_NAME2 = "Exhibition";
 	public static String ClientCode = "PowerX";
-	public static String ClientUser = System.getProperty("px_user", "\247cMatrix");
+	public static String ClientUser = System.getProperty("px_user", "\247cI");
 
     public static String Client_Name = "PowerX";
     public static String Client_Rank = System.getProperty("px_rank", "Dev");
@@ -65,7 +65,7 @@ public class Client {
 	public static boolean doDoubleRejoin;
 
     public IRCManager IRC;
-    
+
 //    public static WaypointManager wm = new WaypointManager();
 
 //	public static Value<String> Array_Font = new Value("Global", "Client Font", 0);

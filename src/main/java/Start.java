@@ -6,7 +6,7 @@ import net.minecraft.client.main.Main;
 public class Start {
 	@native0
 	public static void main(String[] args) {
-		Main.main(concat(new String[] { "--version", "mcp", "--accessToken", "0", "--assetsDir", "assets",
+		Main.main(concat(new String[] { "-Djava.library.path=G:\\Minecraft\\.minecraft\\versions\\1.8.9\\natives-windows-x86_64","--version", "mcp", "--accessToken", "0", "--assetsDir", "assets",
 				"--assetIndex", "1.8", "--userProperties", "{}" }, args));
 	}
 

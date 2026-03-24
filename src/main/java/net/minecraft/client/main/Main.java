@@ -168,7 +168,7 @@ public class Main {
         ArrayList a = new ArrayList();
         if (files != null) {
             for (final File f : files) {
-                if (f.isFile() && f.getName().startsWith("Via") && f.getName().toLowerCase().endsWith(".jar")) {
+                if (/*f.isFile() && f.getName().startsWith("Via") &&*/ f.getName().toLowerCase().endsWith(".jar")) {
                     ucp.addURL(f.toURI().toURL());
                     a.add(f.getName());
                     i++;
